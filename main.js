@@ -16,7 +16,7 @@ function myfunction() {
     }
 }
 
-//---Required password
+//---Required
 document.getElementById('submit').addEventListener('click', function (event) {
     const pass = document.getElementById('password').value;
     const mail = document.getElementById('email').value;
@@ -32,3 +32,4 @@ document.getElementById('submit').addEventListener('click', function (event) {
         window.location.href = 'https://gecko-cms.2soft.top/';
     }
 })
+

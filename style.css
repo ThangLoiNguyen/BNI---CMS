@@ -50,6 +50,10 @@ h5 {
     font-weight: 400;
 }
 
+.sign-in__form--input::placeholder {
+    color: #c2c3c4;
+}
+
 .sign-in__form--input:hover {
     border-color: black;
     user-select: none;
@@ -71,11 +75,11 @@ h5 {
     box-shadow: 0 2px 0 rgba(3, 7, 12, 0.65);
     user-select: none;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .sign-in__control--button:hover {
     background-color: #22262e;
-    transition: 0.3s;
 }
 
 .sign-in__forgot {

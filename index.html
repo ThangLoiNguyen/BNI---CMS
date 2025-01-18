@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNI - CMS</title>
+    <link rel="icon" href="./Vite.js.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="sign-in">
+        <div class="sign-in__header">
+            <h1>SIGN IN</h1>
+        </div>
+
+        <div class="sign-in__form">
+            <div class="sign-in__form--group">
+                <h5>Email</h5>
+                <input aria-required="true" type="text" class="sign-in__form--input" placeholder="Email">
+            </div>
+            <div class="sign-in__form--group sign-in__form--group-password">
+                <h5>Password</h5>
+                <input id="password" aria-required="true" type="password" class="sign-in__form--input"
+                    placeholder="Password">
+                <span>
+                    <i onclick="myfunction()" id="toggler" class="sign-in__form--icon fa-regular fa-eye-slash"></i>
+                </span>
+
+            </div>
+        </div>
+
+        <div class="sign-in__control">
+            <button class="sign-in__control--button">Sign in</button>
+        </div>
+
+        <div class="sign-in__forgot">
+            <a class="sign-in__forgot--title" href="">Forgot password ?</a>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

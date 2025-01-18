@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    box-sizing: border-box;
+}
+
+.sign-in {
+    width: 512px;
+    height: 562px;
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 12px;
+    padding: 65px 32px 44px;
+}
+
+.sign-in__header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 44px;
+}
+
+h1 {
+    font-size: inherit;
+}
+
+.sign-in__form {}
+
+h5 {
+    font-weight: inherit;
+    padding-bottom: 8px;
+    cursor: default;
+}
+
+.sign-in__form--group {
+    padding-bottom: 24px;
+    line-height: 22px;
+}
+
+.sign-in__form--input {
+    padding: 12px 11px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    line-height: 22px;
+    outline: none;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+.sign-in__form--input:hover {
+    border-color: black;
+    user-select: none;
+}
+
+.sign-in__form--input:focus {
+    box-shadow: 0 0 0 2px rgba(3, 7, 12, 0.65);
+    outline: none;
+}
+
+.sign-in__control {}
+
+.sign-in__control--button {
+    padding: 12px 11px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: #131720;
+    color: white;
+    box-shadow: 0 2px 0 rgba(3, 7, 12, 0.65);
+    user-select: none;
+    cursor: pointer;
+}
+
+.sign-in__control--button:hover {
+    background-color: #22262e;
+    transition: 0.3s;
+}
+
+.sign-in__forgot {
+    padding: 80px 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in__forgot--title {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sign-in__forgot--title:hover {
+    text-decoration: none;
+    color: #1677ff;
+    transition: 0.3s;
+}
+
+.sign-in__form--group-password {
+    position: relative;
+}
+
+.sign-in__form--icon {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 1px);
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    transform: scaleX(-1);
+    transition: 0.3s;
+}
+
+.sign-in__form--icon:hover {
+    color: #131720;
+}
